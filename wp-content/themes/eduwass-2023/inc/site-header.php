@@ -26,7 +26,9 @@ add_action( 'after_setup_theme', 'be_register_menus' );
  * Site Header
  */
 function be_site_header() {
-	echo '<a href="' . esc_url( home_url() ) . '" rel="home" class="site-header__logo" aria-label="' . esc_attr( get_bloginfo( 'name' ) ) . ' Home">' . get_bloginfo( 'name' ) . '</a>';
+	echo '<a href="' . esc_url( home_url() ) . '" rel="home" class="site-header__logo" aria-label="' . esc_attr( get_bloginfo( 'name' ) ) . ' Home">';
+	echo be_icon( array( 'icon' => 'primary', 'group' => 'logos', 'size' => false, 'width' => '154', 'height' => '32' ) );
+	echo '</a>';
 
 	echo '<div class="site-header__toggles">';
 	echo be_mobile_menu_toggle();

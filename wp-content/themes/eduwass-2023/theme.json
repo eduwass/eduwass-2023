@@ -12,62 +12,57 @@
 				{
 					"slug": "foreground",
 					"color": "#000000",
-					"name": "Foreground"
+					"name": "Black"
 				},
 				{
 					"slug": "background",
-					"color": "#ffffff",
-					"name": "Background"
+					"color": "#FFFFFF",
+					"name": "White"
 				},
 				{
 					"slug": "primary",
-					"color": "#0000EE",
-					"name": "Primary"
+					"color": "#00607A",
+					"name": "Blue"
 				},
 				{
 					"slug": "secondary",
-					"color": "#00FFFF",
-					"name": "Secondary"
+					"color": "#F9C9EF",
+					"name": "Light Pink"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#00FFFF",
-					"name": "Tertiary"
+					"color": "#F7CAB6",
+					"name": "Medium Peach"
 				},
 				{
 					"slug": "quaternary",
-					"color": "#00FFFF",
-					"name": "Quaternary"
+					"color": "#FDF5F1",
+					"name": "Light Peach"
 				},
 				{
 					"slug": "quinary",
-					"color": "#00FFFF",
-					"name": "Quinary"
+					"color": "#ED8CDF",
+					"name": "Dark Pink"
 				},
 				{
 					"slug": "senary",
-					"color": "#00FFFF",
-					"name": "Senary"
+					"color": "#85EACC",
+					"name": "Teal"
 				},
 				{
 					"slug": "septenary",
-					"color": "#00FFFF",
-					"name": "Septenary"
+					"color": "#DAFE86",
+					"name": "Lime"
 				},
 				{
 					"slug": "octonary",
-					"color": "#00FFFF",
-					"name": "Octonary"
+					"color": "#F1A17E",
+					"name": "Dark Peach"
 				},
 				{
 					"slug": "nonary",
-					"color": "#00FFFF",
-					"name": "Nonary"
-				},
-				{
-					"slug": "denary",
-					"color": "#00FFFF",
-					"name": "Denary"
+					"color": "#E3DFDD",
+					"name": "Platinum"
 				}
 			],
 			"gradients": [],
@@ -91,7 +86,7 @@
 				"2": "0px 3px 10px rgba(33, 33, 33, 0.25)"
 			},
 			"color": {
-				"link" : "#0000EE",
+				"link": "#0000EE",
 				"neutral-50": "#FAFAFA",
 				"neutral-100": "#F5F5F5",
 				"neutral-200": "#EEEEEE",

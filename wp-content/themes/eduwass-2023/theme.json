@@ -148,6 +148,22 @@
 					"fontFamily": "-apple-system-ui-serif, ui-serif, Noto Serif, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol",
 					"name": "System Serif",
 					"slug": "system-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "DM Serif Display",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-serif-display/dm-serif-display-v15-latin-regular.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"DM Serif Display\", serif",
+					"name": "DM Serif Display",
+					"slug": "primary"
 				}
 			],
 			"fontSizes": [
@@ -267,7 +283,7 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--system-serif)",
+					"fontFamily": "var(--wp--preset--font-family--primary)",
 					"fontWeight": "900",
 					"lineHeight": "var(--wp--custom--line-height--small)"
 				}

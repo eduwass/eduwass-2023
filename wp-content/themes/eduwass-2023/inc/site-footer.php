@@ -15,6 +15,7 @@ use BEStarter\Blocks\Social_Links;
  * Site Footer
  */
 function be_site_footer() {
+	echo be_icon( array( 'icon' => 'secondary', 'group' => 'logos', 'size' => false, 'width' => '154', 'height' => '32' ) );
 	echo '<p>&copy;' . date( 'Y' ) . ' ' . get_bloginfo( 'name' ) . '. All rights reserved.</p>';
 }
 add_action( 'tha_footer_top', 'be_site_footer' );

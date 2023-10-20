@@ -1,0 +1,18 @@
+.block-content-image {
+	@include media(">=tablet") {
+		.acf-innerblocks-container {
+			display: flex;
+			flex-direction: row;
+			* {
+				display: flex;
+				flex-direction: column;
+				align-self: center;
+			}
+		}
+		&.reverse {
+			.acf-innerblocks-container {
+				flex-direction: row-reverse;
+			}
+		}
+	}
+}

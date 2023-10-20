@@ -1,0 +1,33 @@
+{
+	"name": "cwp/content-image",
+	"title": "Content & Image",
+	"description": "This block allows you to add content and an image with an option to reverse their order.",
+	"category": "theme",
+	"icon": "",
+	"apiVersion": 2,
+	"keywords": [],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php",
+		"fields": [
+			{
+				"name": "reverse",
+				"label": "Reverse",
+				"type": "true_false",
+				"instructions": "Check this if you want to reverse the order of content and image.",
+				"required": false,
+				"default_value": false
+			}
+		]
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"color": [
+			"background"
+		],
+		"anchor": true
+	}
+}

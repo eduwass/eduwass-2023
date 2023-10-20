@@ -29,5 +29,13 @@
 			"background"
 		],
 		"anchor": true
+	},
+	"example": {
+		"attributes": {
+			"mode": "preview",
+			"data": {
+				"reverse": false
+			}
+		}
 	}
 }
